@@ -3,7 +3,7 @@
     --primary-color: #ff9011;
     --secondary-color: #000000;
     --accent-color: #e74c3c;
-    --light-color: #ffa55b;
+    --light-color: #5bcbff;
     --dark-color: #000000;
 }
 
@@ -24,8 +24,9 @@ body {
     color: #333;
     background-color: #000000;
 }
-.container_mid{
+.container-mid{
     display: flex;
+    gap: 50px;
     max-width: 100%;
 }
 
@@ -332,6 +333,7 @@ nav {
 
 .contact-container {
     display: flex;
+    flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     gap: 3rem;
